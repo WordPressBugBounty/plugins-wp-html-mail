@@ -2,9 +2,9 @@
 Contributors: codemiq,haet
 Tags: email, email template, woocommerce email, email design, elementor, caldera-forms, easy-digital-downloads, contact-form-7, mandrill, postman, gravityforms
 Requires at least: 5.4
-Tested up to: 6.6.2
+Tested up to: 6.7.2
 Requires PHP: 7.2
-Stable tag: 3.4.8
+Stable tag: 3.4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -173,10 +173,12 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 
 == Changelog ==
+= 3.4.9 = 
+* updated dependencies to fix a notice in PHP 8.3
+* FIXED: Prevent Function _load_textdomain_just_in_time was called incorrectly notice
 
 = 3.4.8 = 
 * FIXED: Sending test mails from WooCommerce tab 
-
 
 = 3.4.7 =
 * ADDED: Support for Fluent Support Mailbox mails
